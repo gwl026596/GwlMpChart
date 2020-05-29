@@ -15,11 +15,12 @@ Step 2. Add the dependency
 	        implementation 'com.github.gwl026596:GwlMpChart:1.0.0'
 	}
 Step 3.折线图使用在XML加
-        <com.gwl.chartlibrary.view.LineChartView
+ <com.gwl.chartlibrary.view.LineChartView
         android:id="@+id/lineChartView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:padding="10dp"/>
+       
 	
 Step 4.填充数据
         LineChartView lineChartView=findViewById(R.id.lineChartView);
