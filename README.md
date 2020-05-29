@@ -40,7 +40,7 @@ Step 4.填充数据
         lineChartView.setData(pointFs);
 ```
 可以添加标题栏的标题，标题颜色 标题右边的文本，或图片（样式如下图）
-![image](https://github.com/gwl026596/TopTitleView/blob/master/app/src/main/res/mipmap-xxhdpi/test.jpg?raw=true)
+![image](https://github.com/gwl026596/GwlMpChart/blob/master/app/src/main/res/mipmap-xxhdpi/linechat.gif?raw=true)
 
  
        
