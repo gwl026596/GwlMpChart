@@ -1,0 +1,2 @@
+include ':app', ':chartlibrary'
+rootProject.name='GwlMpChart'
