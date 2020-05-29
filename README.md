@@ -14,8 +14,9 @@ Step 2. Add the dependency
 	dependencies {
 	        implementation 'com.github.gwl026596:GwlMpChart:1.0.0'
 	}
+	
+Step 3.折线图使用在XML	
 ```
-Step 3.折线图使用在XML
 	<com.gwl.chartlibrary.view.LineChartView
         android:id="@+id/lineChartView"
         android:layout_width="match_parent"
@@ -23,6 +24,7 @@ Step 3.折线图使用在XML
         android:padding="10dp"/>
 ```
 Step 4.填充数据
+```
         LineChartView lineChartView=findViewById(R.id.lineChartView);
         ArrayList<PointF>  pointFs = new ArrayList<PointF>();
         pointFs.add(new PointF(0.3F, 0.5F));
