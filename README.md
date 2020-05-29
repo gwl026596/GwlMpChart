@@ -14,12 +14,18 @@ Step 2. Add the dependency
 	dependencies {
 	        implementation 'com.github.gwl026596:GwlMpChart:1.0.0'
 	}
+```
 Step 3.折线图使用在XML
 	<com.gwl.chartlibrary.view.LineChartView
         android:id="@+id/lineChartView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:padding="10dp"/>
+```
+
+可以添加标题栏的标题，标题颜色 标题右边的文本，或图片（样式如下图）
+![image](https://github.com/gwl026596/TopTitleView/blob/master/app/src/main/res/mipmap-xxhdpi/test.jpg?raw=true)
+
  
        
 	
